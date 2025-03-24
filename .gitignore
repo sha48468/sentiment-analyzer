@@ -1,0 +1,11 @@
+# IDE files
+.idea/
+
+# Build output
+target/
+*.class
+
+# Results and output
+*.png
+results.csv
+charts/
