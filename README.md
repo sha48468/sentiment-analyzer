@@ -27,10 +27,10 @@ A Java-based sentiment analysis project that processes textual reviews, analyzes
 ##  Example Output
 
 ### Pie Chart
-![Pie Chart](charts/sentiment_2025-03-24_18-32.png)
+![Pie Chart](charts/sentiment_2025-03-24_18-36.png)
 
 ### Bar Chart
-![Bar Chart](charts/sentiment_bar_2025-03-24_18-32.png)
+![Bar Chart](charts/sentiment_bar_2025-03-24_18-36.png)
 
 > Charts are saved automatically under the `charts/` folder upon running the program.
 
