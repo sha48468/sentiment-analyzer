@@ -1,48 +1,28 @@
-# Sentiment Analyzer 
+#  Sentiment Analyzer
 
-A Java-based sentiment analysis project that processes textual reviews, analyzes their sentiment, and visualizes the results with beautiful charts.
-
-
-##  What does this project do?
-
-- Reads customer reviews from `reviews.txt`
-- Uses **Stanford CoreNLP** to detect the sentiment (Positive / Negative / Neutral)
-- Saves the results to a `results.csv` file
-- Generates two charts:
-  -  **Pie Chart** – shows sentiment distribution
-  -  **Bar Chart** – compares sentiment counts
+A Java-based NLP (Natural Language Processing) project that analyzes product review sentiments using **Stanford CoreNLP**, and visualizes the results with **JFreeChart** (Pie & Bar charts).
 
 ---
 
-##  Technologies & Tools
+##  Features
 
-- Java 17
-- Maven
-- Stanford CoreNLP
-- JFreeChart
-- IntelliJ IDEA
-
----
-
-##  Example Output
-
-### Pie Chart
-![Pie Chart](sentiment_2025-03-24_18-36.png)
-
-### Bar Chart
-![Bar Chart](sentiment_bar_2025-03-24_18-36.png)
-
-> Charts are saved automatically under the `charts/` folder upon running the program.
+-  Analyzes textual reviews (positive / negative / neutral)
+-  Uses Stanford CoreNLP for sentiment analysis
+-  Generates visual Pie & Bar charts of the results
+-  Outputs results into a `.csv` file
+-  Built with Java + Maven + IntelliJ IDEA
 
 ---
 
-##  How to Run
+##  Sample Output
 
-1. Add your reviews to the file: `texts/reviews.txt` (one review per line)
-2. Run the file `SentimentAnalyzer.java`
-3. Output:
-   - `results.csv` – with the sentiment for each review
-   - PNG charts – saved with timestamps under `charts/`
+###  Pie Chart
+![Pie Chart](charts/sentiment_2025-03-24_18-36.png)
+
+###  Bar Chart
+![Bar Chart](charts/sentiment_bar_2025-03-24_18-36.png)
+
+> Charts are auto-saved to the `charts/` directory upon execution.
 
 ---
 
@@ -50,46 +30,53 @@ A Java-based sentiment analysis project that processes textual reviews, analyzes
 
 ```
 sentiment-analyzer/
+├── charts/               # PNG charts (auto-generated)
+├── src/                  # Java source files
+│   └── main/
+│       └── java/com/sentiment/app/
+│           ├── SentimentAnalyzer.java
+│           ├── SentimentChartGenerator.java
+│           └── App.java
 ├── texts/
-│   ├── reviews.txt
-│   └── results.csv
-├── charts/
-│   ├── sentiment_YYYY-MM-DD_HH-MM.png
-│   └── sentiment_bar_YYYY-MM-DD_HH-MM.png
-├── src/main/java/com/sentiment/app/
-│   ├── SentimentAnalyzer.java
-│   ├── SentimentChartGenerator.java
-│   └── App.java
-├── pom.xml
+│   └── reviews.txt       # Input: one review per line
+├── results.csv           # Output: sentiment results
+├── pom.xml               # Maven config
 └── README.md
 ```
 
 ---
 
-##  Recommended .gitignore
+##  How to Run
 
-```
-.idea/
-target/
-*.class
-*.png
-results.csv
-```
+1. Add reviews to `texts/reviews.txt` (each line = one review)
+2. Run the `SentimentAnalyzer.java` file
+3. Output:
+   -  `results.csv` with the sentiment for each review
+   -  PNG charts saved under `charts/`
 
 ---
 
-##  Why it's great for your portfolio
+##  Dependencies
 
-- Combines **NLP (Natural Language Processing)** with **Data Analysis**
-- Includes **data visualization** and **CSV handling**
-- Demonstrates strong Java skills and library integration
-- Clear, clean, and production-ready code
+- [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/)
+- [JFreeChart](http://www.jfree.org/jfreechart/)
+- Java 11+
+- Maven
 
 ---
 
-##  Created by
+##  What I Learned
 
-Shahar Moskovics – Industrial And Management Engineering Student | Aspiring Data Analyst  
- Tel Aviv, Israel  
-shaharmos1@gmail.com | http://www.linkedin.com/in/shahar-moskovics
+- Working with NLP libraries (Stanford CoreNLP)
+- Building Java projects with Maven
+- Generating dynamic visualizations in Java
+- Using Git & GitHub for version control
 
+---
+
+##  Contact
+
+Feel free to reach out if you have questions or feedback!  
+Shahar Moskovics  
+shaharmos1@gmail.com  
+http://www.linkedin.com/in/shahar-moskovics
