@@ -27,7 +27,8 @@ A Java-based sentiment analysis project that processes textual reviews, analyzes
 ##  Example Output
 
 ### Pie Chart
-![Pie Chart](charts/sentiment_2025-03-24_18-36.png)
+![Pie Chart](sentiment_2025-03-24_18-36.png)
+
 
 ### Bar Chart
 ![Bar Chart](charts/sentiment_bar_2025-03-24_18-36.png)
