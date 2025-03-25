@@ -89,10 +89,7 @@ results.csv
 
 ##  Created by
 
-[Shahar Moskovics] – Industrial And Management Engineering Student | Aspiring Data Analyst  
+Shahar Moskovics – Industrial And Management Engineering Student | Aspiring Data Analyst  
  Tel Aviv, Israel  
-<<<<<<< HEAD
 shaharmos1@gmail.com | http://www.linkedin.com/in/shahar-moskovics
-=======
-shaharmos1@gmail.com | http://www.linkedin.com/in/shahar-moskovics
->>>>>>> 98ef01d382883447b0e37ebc31946b946e0e380a
+
