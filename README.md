@@ -27,10 +27,18 @@ A Java-based sentiment analysis project that processes textual reviews, analyzes
 ##  Example Output
 
 ### Pie Chart
+ HEAD
 ![Pie Chart](charts/sentiment_2025-03-24_18-36.png)
 
 ### Bar Chart
 ![Bar Chart](charts/sentiment_bar_2025-03-24_18-36.png)
+
+![Pie Chart](sentiment_2025-03-24_18-36.png)
+
+
+### Bar Chart
+![Bar Chart](sentiment_bar_2025-03-24_18-36.png)
+ 98ef01d382883447b0e37ebc31946b946e0e380a
 
 > Charts are saved automatically under the `charts/` folder upon running the program.
 
@@ -91,4 +99,8 @@ results.csv
 
 [Shahar Moskovics] – Industrial And Management Engineering Student | Aspiring Data Analyst  
  Tel Aviv, Israel  
+<<<<<<< HEAD
 shaharmos1@gmail.com | http://www.linkedin.com/in/shahar-moskovics
+=======
+shaharmos1@gmail.com | http://www.linkedin.com/in/shahar-moskovics
+>>>>>>> 98ef01d382883447b0e37ebc31946b946e0e380a
