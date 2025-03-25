@@ -31,7 +31,7 @@ A Java-based sentiment analysis project that processes textual reviews, analyzes
 
 
 ### Bar Chart
-![Bar Chart](charts/sentiment_bar_2025-03-24_18-36.png)
+![Bar Chart](sentiment_bar_2025-03-24_18-36.png)
 
 > Charts are saved automatically under the `charts/` folder upon running the program.
 
