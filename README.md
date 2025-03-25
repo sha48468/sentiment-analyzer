@@ -20,7 +20,7 @@ A Java-based NLP (Natural Language Processing) project that analyzes product rev
 ![Pie Chart](sentiment_2025-03-24_18-36.png)
 
 ###  Bar Chart
-![Bar Chart](charts/sentiment_bar_2025-03-24_18-36.png)
+![Bar Chart](sentiment_bar_2025-03-24_18-36.png)
 
 > Charts are auto-saved to the `charts/` directory upon execution.
 
